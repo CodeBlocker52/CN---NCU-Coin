@@ -87,7 +87,7 @@ function Footer({ company, links }) {
 Footer.defaultProps = {
   company: { href: "https://github.com/Udit-Kapoor/CollegeNetwork", name: "Devs Only" },
   links: [
-    { href: "https://github.com/TarunWebdev", name: "Tarun" },
+    { href: "https://github.com/Codeblocker52", name: "Kundan" },
     { href: "https://github.com/Udit-Kapoor", name: "Udit" }
   ],
 };
