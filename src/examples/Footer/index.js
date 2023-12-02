@@ -85,11 +85,8 @@ function Footer({ company, links }) {
 
 // Setting default values for the props of Footer
 Footer.defaultProps = {
-  company: { href: "https://github.com/CodeBlocker52/CN---NCU-Coin", name: "Devs Only" },
-  links: [
-    { href: "https://github.com/Codeblocker52", name: "Kundan" },
-    { href: "https://github.com/Udit-Kapoor", name: "Udit" }
-  ],
+  company: { href: "https://github.com/CodeBlocker52/CN---NCU-Coin", name: "Devs Only" }
+ 
 };
 
 // Typechecking props for the Footer
