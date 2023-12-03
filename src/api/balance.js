@@ -19,7 +19,7 @@ const getPackedKey = (tokenId, address, type) => {
       );
     } else {
       packedKey = TezosMessageUtils.encodeBigMapKey(
-        // eslint-disable-next-line no-undef
+       
         Buffer.from(
           TezosMessageUtils.writePackedData(`${accountHex}`, '', TezosParameterFormat.Michelson),
           'hex',
